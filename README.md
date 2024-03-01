@@ -4,11 +4,11 @@
 ### Engine: Godot
 ### Genre: Tower Defense
 ### Platform: Web
-##Game Concept:
+## Game Concept:
 
 Lighthouse Defense is a web-based tower defense game set in the courtyard of a lighthouse. Players defend themselves against waves of creatures in the dark using the rotating light of the lighthouse as their only source of visibility. Survive as long as possible by strategically shooting enemies while managing limited resources and health.
 
-##Gameplay Mechanics:
+## Gameplay Mechanics:
 
 Movement: Players can move horizontally and vertically within the courtyard using arrows or WASD.
 
@@ -22,11 +22,11 @@ Scoring: Players earn points for every enemy they eliminate. Points contribute t
 
 Lighthouse Red Alert: Every 2-minute interval, the lighthouse's light turns red. For the next 30 seconds, creatures move twice as fast and spawn twice as much.
 
-##Premise:
+## Premise:
 
 Players find themselves trapped in the courtyard of a lighthouse, surrounded by darkness. The only illumination comes from the rotating beam of the lighthouse. Mysterious creatures emerge from the darkness, seeking to attack the player. Survive as long as possible using wit, reflexes, and limited resources to fend off relentless waves of enemies.
 
-##Assets:
+## Assets:
 
 Sounds: 
 •	Background ambience 
@@ -45,9 +45,9 @@ Controls:
 •	Shoot: Mouse click (desktop) or tap (mobile)
 •	Reload: Button click or tap
 
-##Progression:
+## Progression:
 As the game progresses, enemies become more numerous and aggressive, posing a greater threat to the player. Encounter different enemy types with unique abilities or behaviors. The goal is to survive as long as possible and achieve the highest score.
 
 
-##End Conditions:
+## End Conditions:
 The game ends when the player's hit points reach zero, indicating they have been overwhelmed by creatures. Display the player's score, allowing them to compare performance with previous attempts.
