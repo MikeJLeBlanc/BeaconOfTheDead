@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://b367riib7kghx"]
 
 [node name="TitleScreen" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="GameManager"]

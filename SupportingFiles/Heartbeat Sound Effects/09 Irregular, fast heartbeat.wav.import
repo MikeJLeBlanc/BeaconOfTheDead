@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnh2wad1yt0pe"
+path="res://.godot/imported/09 Irregular, fast heartbeat.wav-70a4c237c72006011e6e8055efc6502d.sample"
+
+[deps]
+
+source_file="res://SupportingFiles/Heartbeat Sound Effects/09 Irregular, fast heartbeat.wav"
+dest_files=["res://.godot/imported/09 Irregular, fast heartbeat.wav-70a4c237c72006011e6e8055efc6502d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -533,6 +533,10 @@ sources/5 = SubResource("TileSetAtlasSource_xsu2q")
 
 [node name="BeaconOfTheDead" type="Node2D"]
 
+[node name="GameManager" type="Node" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="GameManager"]
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_cwjv6")
 format = 2
@@ -562,4 +566,3 @@ shape = SubResource("RectangleShape2D_3oc8l")
 zoom = Vector2(0.75, 0.75)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0, 0, 0, 1)
