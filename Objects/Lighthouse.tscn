@@ -323,17 +323,7 @@ layer_2/tile_data = PackedInt32Array()
 position = Vector2(7, -78)
 
 [node name="NormalLight" type="PointLight2D" parent="LightPivot"]
-position = Vector2(-56, -117)
-skew = -0.453786
+position = Vector2(-3, -123)
 color = Color(0.92549, 0.964706, 0.47451, 1)
-texture = ExtResource("2_yo0cw")
-texture_scale = 8.0
-
-[node name="RedLight" type="PointLight2D" parent="LightPivot"]
-visible = false
-position = Vector2(-56, -117)
-skew = -0.453786
-color = Color(0.788235, 0, 0, 1)
-energy = 4.0
 texture = ExtResource("2_yo0cw")
 texture_scale = 8.0

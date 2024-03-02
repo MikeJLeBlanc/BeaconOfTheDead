@@ -29,13 +29,12 @@ func _process(delta):
 		isEnemyMad = true
 		changeEnemyState()
 		elapsedTime = 0.0
-	
+
 
 func changeEnemyState():
 	if isEnemyMad:
-		$LightPivot/NormalLight.visible = false
-		$LightPivot/RedLight.visible = true
-		isEnemyMad = false
+		$LightPivot/NormalLight.color = Color("c90000")
+		$LightPivot/NormalLight.energy = 7
 	else:
-		$LightPivot/NormalLight.visible = true
-		$LightPivot/RedLight.visible = false
+		$LightPivot/NormalLight.color = Color("ecf679")
+		$LightPivot/NormalLight.energy = 1
