@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c8nt6bmuj11je"]
+[gd_scene load_steps=34 format=3 uid="uid://c8nt6bmuj11je"]
 
 [ext_resource type="Texture2D" uid="uid://cn4qc5hgljivu" path="res://Tilemaps/TilesDungeon.png" id="1_6cp6k"]
 [ext_resource type="Texture2D" uid="uid://bqryva1j45quc" path="res://Tilemaps/Water_FREE.png" id="2_juabw"]
@@ -6,6 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://kbey5hj4fjax" path="res://Tilemaps/Props.png" id="3_v13sj"]
 [ext_resource type="Texture2D" uid="uid://bhwqj2016ykgi" path="res://Tilemaps/Trees.png" id="4_t3np6"]
 [ext_resource type="PackedScene" uid="uid://dk782gdv8jppr" path="res://Objects/Lighthouse.tscn" id="6_qqp7i"]
+[ext_resource type="Texture2D" uid="uid://jrq40t37u3l8" path="res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Death/Death-Sheet.png" id="7_e5hey"]
+[ext_resource type="Texture2D" uid="uid://ct4w5qd2g3odu" path="res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/Idle-Sheet.png" id="8_xhk1r"]
+[ext_resource type="Texture2D" uid="uid://b3krkxehth7bw" path="res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Run/Run-Sheet.png" id="9_mcpt3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_grkpc"]
 texture = ExtResource("1_6cp6k")
@@ -529,13 +532,139 @@ sources/3 = SubResource("TileSetAtlasSource_pq0g4")
 sources/4 = SubResource("TileSetAtlasSource_6erv7")
 sources/5 = SubResource("TileSetAtlasSource_xsu2q")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_x66mx"]
+atlas = ExtResource("7_e5hey")
+region = Rect2(0, 0, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rrapo"]
+atlas = ExtResource("7_e5hey")
+region = Rect2(48, 0, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pjw3m"]
+atlas = ExtResource("7_e5hey")
+region = Rect2(96, 0, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s0vvp"]
+atlas = ExtResource("7_e5hey")
+region = Rect2(144, 0, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ufxc"]
+atlas = ExtResource("7_e5hey")
+region = Rect2(192, 0, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wga07"]
+atlas = ExtResource("7_e5hey")
+region = Rect2(240, 0, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fdpte"]
+atlas = ExtResource("8_xhk1r")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uosrq"]
+atlas = ExtResource("8_xhk1r")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0u62q"]
+atlas = ExtResource("8_xhk1r")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rpc6t"]
+atlas = ExtResource("8_xhk1r")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqw5c"]
+atlas = ExtResource("9_mcpt3")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ibt0i"]
+atlas = ExtResource("9_mcpt3")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bqxh2"]
+atlas = ExtResource("9_mcpt3")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5jp5"]
+atlas = ExtResource("9_mcpt3")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wyokr"]
+atlas = ExtResource("9_mcpt3")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hthdy"]
+atlas = ExtResource("9_mcpt3")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v1axy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x66mx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rrapo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pjw3m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s0vvp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ufxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wga07")
+}],
+"loop": true,
+"name": &"KnightDeathAnimation",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fdpte")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uosrq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0u62q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rpc6t")
+}],
+"loop": true,
+"name": &"KnightIdleAnimation",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqw5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ibt0i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bqxh2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5jp5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wyokr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hthdy")
+}],
+"loop": true,
+"name": &"KnightRunAnimation",
+"speed": 5.0
+}]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3oc8l"]
 
 [node name="BeaconOfTheDead" type="Node2D"]
-
-[node name="GameManager" type="Node" parent="."]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="GameManager"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_cwjv6")
@@ -552,6 +681,16 @@ layer_3/name = "Air"
 layer_3/z_index = 3
 layer_3/tile_data = PackedInt32Array()
 
+[node name="GameManager" type="Node" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="GameManager"]
+
+[node name="PlayerSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(6, -235)
+sprite_frames = SubResource("SpriteFrames_v1axy")
+animation = &"KnightIdleAnimation"
+frame_progress = 0.191964
+
 [node name="Lighthouse" parent="." instance=ExtResource("6_qqp7i")]
 scale = Vector2(2, 2)
 
@@ -566,3 +705,4 @@ shape = SubResource("RectangleShape2D_3oc8l")
 zoom = Vector2(0.75, 0.75)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.890196, 0.890196, 0.890196, 1)

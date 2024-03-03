@@ -13,7 +13,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	$LightPivot.rotation += delta 
+	$LightPivot.rotation += (delta / 2)
 	elapsedTime += delta
 	
 	'''
