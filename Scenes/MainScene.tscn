@@ -1,11 +1,13 @@
-[gd_scene load_steps=34 format=3 uid="uid://c8nt6bmuj11je"]
+[gd_scene load_steps=36 format=3 uid="uid://c8nt6bmuj11je"]
 
 [ext_resource type="Texture2D" uid="uid://cn4qc5hgljivu" path="res://Tilemaps/TilesDungeon.png" id="1_6cp6k"]
 [ext_resource type="Texture2D" uid="uid://bqryva1j45quc" path="res://Tilemaps/Water_FREE.png" id="2_juabw"]
 [ext_resource type="Texture2D" uid="uid://dvkllcj256wnb" path="res://Tilemaps/Tiles.png" id="3_uofld"]
 [ext_resource type="Texture2D" uid="uid://kbey5hj4fjax" path="res://Tilemaps/Props.png" id="3_v13sj"]
 [ext_resource type="Texture2D" uid="uid://bhwqj2016ykgi" path="res://Tilemaps/Trees.png" id="4_t3np6"]
+[ext_resource type="Script" path="res://Scripts/GameManager.gd" id="6_py4ex"]
 [ext_resource type="PackedScene" uid="uid://dk782gdv8jppr" path="res://Objects/Lighthouse.tscn" id="6_qqp7i"]
+[ext_resource type="AudioStream" uid="uid://bg7jconye61am" path="res://Audio/BGMusic/IntroAmbiance.mp3" id="7_4oewj"]
 [ext_resource type="Texture2D" uid="uid://jrq40t37u3l8" path="res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Death/Death-Sheet.png" id="7_e5hey"]
 [ext_resource type="Texture2D" uid="uid://ct4w5qd2g3odu" path="res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/Idle-Sheet.png" id="8_xhk1r"]
 [ext_resource type="Texture2D" uid="uid://b3krkxehth7bw" path="res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Run/Run-Sheet.png" id="9_mcpt3"]
@@ -682,8 +684,11 @@ layer_3/z_index = 3
 layer_3/tile_data = PackedInt32Array()
 
 [node name="GameManager" type="Node" parent="."]
+script = ExtResource("6_py4ex")
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="GameManager"]
+[node name="GameAmbiance" type="AudioStreamPlayer" parent="GameManager"]
+stream = ExtResource("7_4oewj")
+volume_db = -7.0
 
 [node name="PlayerSprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(6, -235)

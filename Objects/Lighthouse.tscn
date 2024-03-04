@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://dk782gdv8jppr"]
 
 [ext_resource type="Texture2D" uid="uid://cn4qc5hgljivu" path="res://Tilemaps/TilesDungeon.png" id="1_2yjc6"]
-[ext_resource type="Script" path="res://Scripts/LighthouseScript.gd" id="1_26kvm"]
+[ext_resource type="Script" path="res://Scripts/Lighthouse.gd" id="1_26kvm"]
 [ext_resource type="Texture2D" uid="uid://bp53smrptt4m5" path="res://Assets/light.png" id="2_yo0cw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3jyy6"]

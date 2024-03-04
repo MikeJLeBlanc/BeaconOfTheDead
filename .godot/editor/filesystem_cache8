@@ -1,0 +1,135 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1709518835
+README.md::TextFile::-1::1709389353::0::1::::<><>::
+::res://Assets/::1709389585
+light.png::CompressedTexture2D::3502917548222708498::1709389353::1709389585::1::::<><>::
+::res://Audio/::1709398625
+::res://Audio/BGMusic/::1709513818
+IntroAmbiance.mp3::AudioStreamMP3::2874164614680319596::1709389353::1709513818::1::::<><>::
+IntroMusicAcapella.mp3::AudioStreamMP3::2247166197352735401::1709389353::1709512851::1::::<><>::
+::res://Audio/SoundEffects/::1709512922
+::res://Audio/SoundEffects/Heartbeat Sound Effects/::1709512923
+01 Dramatic heartbeat (clean).wav::AudioStreamWAV::6719366604919548343::1709389353::1709512923::1::::<><>::
+01 Dramatic heartbeat.wav::AudioStreamWAV::7609202111558768931::1709389353::1709512923::1::::<><>::
+02 Slow heartbeat (40 bpm).wav::AudioStreamWAV::5251227928032649113::1709389353::1709512923::1::::<><>::
+03 Human heartbeat (almost 70 bpm).wav::AudioStreamWAV::6548314789162580174::1709389353::1709512923::1::::<><>::
+05 Dramatic heartbeat #2.wav::AudioStreamWAV::2435300064433314425::1709389353::1709512923::1::::<><>::
+06 Human heartbeat (60 bpm).wav::AudioStreamWAV::5496154343902180550::1709389353::1709512923::1::::<><>::
+07 Clean, short heartbeats.wav::AudioStreamWAV::5818363613087043526::1709389353::1709512923::1::::<><>::
+08 Slow to fast heart SFX (60 bpm to 120bpm).wav::AudioStreamWAV::8790308551745185585::1709389353::1709512923::1::::<><>::
+09 Irregular, fast heartbeat.wav::AudioStreamWAV::8087846314771327358::1709389353::1709512923::1::::<><>::
+10 Fast heartbeat (120bpm).wav::AudioStreamWAV::7251866598658788036::1709389353::1709512923::1::::<><>::
+::res://Objects/::1709389353
+Lighthouse.tscn::PackedScene::7929262773559394051::1709389353::0::1::::<><>::uid://cn4qc5hgljivu::::res://Tilemaps/TilesDungeon.png<>res://Scripts/LighthouseScript.gd<>uid://bp53smrptt4m5::::res://Assets/light.png
+::res://Scenes/::1709519745
+GameOver.tscn::PackedScene::2889246014491385139::1709389353::0::1::::<><>::
+MainScene.tscn::PackedScene::7117119172700453374::1709518676::0::1::::<><>::uid://cn4qc5hgljivu::::res://Tilemaps/TilesDungeon.png<>uid://bqryva1j45quc::::res://Tilemaps/Water_FREE.png<>uid://dvkllcj256wnb::::res://Tilemaps/Tiles.png<>uid://kbey5hj4fjax::::res://Tilemaps/Props.png<>uid://bhwqj2016ykgi::::res://Tilemaps/Trees.png<>uid://dk782gdv8jppr::::res://Objects/Lighthouse.tscn<>uid://jrq40t37u3l8::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Death/Death-Sheet.png<>uid://ct4w5qd2g3odu::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/Idle-Sheet.png<>uid://b3krkxehth7bw::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Run/Run-Sheet.png
+TitleScreen.tscn::PackedScene::4417677750832605837::1709520153::0::1::::<><>::res://Scripts/GameManager.gd<>uid://bg7jconye61am::::res://Audio/BGMusic/IntroAmbiance.mp3<>uid://ckkm4hb66lej3::::res://Audio/SoundEffects/Heartbeat Sound Effects/06 Human heartbeat (60 bpm).wav<>uid://7asq7167befh::::res://Audio/BGMusic/IntroMusicAcapella.mp3
+::res://Scripts/::1709519739
+GameManager.gd::GDScript::-1::1709520153::0::1::::<>Node<>::
+Lighthouse.gd::GDScript::-1::1709520092::0::1::::<>Node2D<>::
+::res://SupportingFiles/::1709512922
+Water_FREE.png::CompressedTexture2D::9064292057108514078::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/::1709389353
+Terms.txt::TextFile::-1::1709389353::0::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::5878024267841712014::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::555047097216850394::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::14818632654023753::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Rogue/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Rogue/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::2327114880028812614::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Rogue/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::8912130868263806226::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Rogue/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::2199868539658298405::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Shaman/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Shaman/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::4117863032946382206::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Shaman/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::2197628280105590147::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Shaman/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::1298807678057857691::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Warrior/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Warrior/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::6528096461616316036::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Warrior/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::6338254788426349267::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Orc Crew/Orc - Warrior/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::7562640904570752255::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Base/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Base/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::1453177978759378127::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Base/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::3788743295745930865::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Base/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::6787234479600820011::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Mage/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Mage/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::7151621722259984355::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Mage/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::1645312956723160593::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Mage/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::805243537327883236::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Rogue/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Rogue/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::2445472890849378378::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Rogue/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::4686487836282919865::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Rogue/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::8227526852009609943::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Warrior/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Warrior/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::4621936357043870730::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Warrior/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::3267474027810886373::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Enemy/Skeleton Crew/Skeleton - Warrior/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::4104032339794750338::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Environment/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Environment/Dungeon Prison/Assets/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Environment/Green Woods/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Environment/Green Woods/Assets/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::667818618219624039::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::6167686545278466834::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::4373403344474705920::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Rogue/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Rogue/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::1661391751710895144::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Rogue/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::4958145504139782837::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Rogue/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::1100973180149531358::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Wizzard/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Wizzard/Death/::1709389585
+Death-Sheet.png::CompressedTexture2D::5668139433645371719::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Wizzard/Idle/::1709389585
+Idle-Sheet.png::CompressedTexture2D::5398008350318884321::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Wizzard/Run/::1709389585
+Run-Sheet.png::CompressedTexture2D::6844246860579514401::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Weapons/::1709389353
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Weapons/Bone/::1709389585
+Bone.png::CompressedTexture2D::6936845223277507491::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Weapons/Hands/::1709389585
+Hands.png::CompressedTexture2D::2615537240856659266::1709389353::1709389585::1::::<><>::
+::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Weapons/Wood/::1709389585
+Wood.png::CompressedTexture2D::3836840003353317916::1709389353::1709389585::1::::<><>::
+::res://Tilemaps/::1709389585
+Props.png::CompressedTexture2D::704240128121181715::1709389353::1709389585::1::::<><>::
+PropsDungeon.png::CompressedTexture2D::7746598012125216945::1709389353::1709389585::1::::<><>::
+Tiles.png::CompressedTexture2D::8654559195889996811::1709389353::1709389585::1::::<><>::
+TilesDungeon.png::CompressedTexture2D::5746139919822241014::1709389353::1709389585::1::::<><>::
+Trees.png::CompressedTexture2D::2924147901752317100::1709389353::1709389585::1::::<><>::
+Water_FREE.png::CompressedTexture2D::3546031353832819018::1709389353::1709389585::1::::<><>::

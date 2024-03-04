@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://co5pumaye0rle"
+path="res://.godot/imported/07 Clean, short heartbeats.wav-ef950c03ee8d561d708a28356e9fafe0.sample"
+
+[deps]
+
+source_file="res://Audio/SoundEffects/Heartbeat Sound Effects/07 Clean, short heartbeats.wav"
+dest_files=["res://.godot/imported/07 Clean, short heartbeats.wav-ef950c03ee8d561d708a28356e9fafe0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

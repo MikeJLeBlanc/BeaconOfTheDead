@@ -1,0 +1,4 @@
+res://Scenes/TitleScreen.tscn
+res://Scripts/GameManager.gd
+res://Objects/Lighthouse.tscn
+res://Scenes/MainScene.tscn
