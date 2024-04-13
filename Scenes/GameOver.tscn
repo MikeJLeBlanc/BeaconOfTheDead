@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://bhftpvpn3dggx"]
+[gd_scene load_steps=3 format=3 uid="uid://bhftpvpn3dggx"]
+
+[ext_resource type="Script" path="res://Scenes/GameOver.gd" id="1_vh861"]
+[ext_resource type="Resource" uid="uid://cdbpu0adjmqpv" path="res://GameStats.tres" id="2_mfjbf"]
 
 [node name="GameOver" type="Node2D"]
+script = ExtResource("1_vh861")
+game_stats = ExtResource("2_mfjbf")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]

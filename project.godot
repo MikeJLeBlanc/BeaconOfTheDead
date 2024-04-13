@@ -14,6 +14,21 @@ config/name="BeaconOfTheDead"
 run/main_scene="res://Scenes/TitleScreen.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 
+[autoload]
+
+Ambiance="*res://Ambiance.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[layer_names]
+
+2d_physics/layer_1="player hurtbox"
+2d_physics/layer_2="enemy hurtbox"
+2d_physics/layer_3="lighthouse hurtbox"
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"

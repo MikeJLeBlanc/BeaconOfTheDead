@@ -1,24 +1,23 @@
 [gd_scene load_steps=5 format=3 uid="uid://b367riib7kghx"]
 
-[ext_resource type="Script" path="res://Scripts/TitleManager.gd" id="1_d84mu"]
-[ext_resource type="AudioStream" uid="uid://bg7jconye61am" path="res://Audio/BGMusic/IntroAmbiance.mp3" id="1_jiw05"]
+[ext_resource type="Script" path="res://Scenes/TitleScreen.gd" id="1_rv7xp"]
+[ext_resource type="Resource" uid="uid://cdbpu0adjmqpv" path="res://GameStats.tres" id="2_3nehg"]
 [ext_resource type="AudioStream" uid="uid://ckkm4hb66lej3" path="res://Audio/SoundEffects/Heartbeat Sound Effects/06 Human heartbeat (60 bpm).wav" id="3_imq0b"]
 [ext_resource type="AudioStream" uid="uid://7asq7167befh" path="res://Audio/BGMusic/IntroMusicAcapella.mp3" id="4_gwvpe"]
 
 [node name="TitleScreen" type="Node2D"]
+script = ExtResource("1_rv7xp")
+game_stats = ExtResource("2_3nehg")
 
-[node name="GameManager" type="Node" parent="."]
-script = ExtResource("1_d84mu")
-
-[node name="StormAudio" type="AudioStreamPlayer2D" parent="GameManager"]
-stream = ExtResource("1_jiw05")
-autoplay = true
-
-[node name="HeartbeatAudio" type="AudioStreamPlayer2D" parent="GameManager"]
+[node name="HeartbeatAudio" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_imq0b")
 volume_db = 20.0
 autoplay = true
 
-[node name="AcapellaAudio" type="AudioStreamPlayer2D" parent="GameManager"]
+[node name="AcapellaAudio" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("4_gwvpe")
 autoplay = true
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_request_completed"]

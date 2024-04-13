@@ -1,40 +1,35 @@
 extends Node2D
 
-var elapsedTime = 110.0
-var twoMinuteMarker = 120
-var thirtySecondTimer = 30
-var isEnemyMad = false
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass
-	
-
+@export var game_stats: GameStats
+@onready var light_pivot = $LightPivot
+@onready var raid_siren = $AudioStreamPlayer2D
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	$LightPivot.rotation += (delta / 2)
-	elapsedTime += delta
+	# light rotation wont work down below for some reason.
+	if game_stats.enemyState:
+		light_pivot.rotate(delta)
+	else:
+		light_pivot.rotate(delta / 2)
+		
+	game_stats.enemyRageTimer += delta
+	game_stats.totalTime += delta
 	
 	'''
 	We need to check to see if the timers have elapsed for our enemy state.
-	Every 2 minutes enemy state changes into a rage state where spawn and speed of enemies double.
-	Visual changes include the lighthouse light turning read.
+	Every minute enemy state changes into a rage state where spawn and speed of enemies double.
+	Visual changes include the lighthouse light turning read. Audio queue is a siren.
 	'''
-	if elapsedTime >= thirtySecondTimer && isEnemyMad == true:
-		isEnemyMad = false
-		changeEnemyState()
-		elapsedTime = 0.0
-	if elapsedTime >= twoMinuteMarker:
-		isEnemyMad = true
-		changeEnemyState()
-		elapsedTime = 0.0
-
-
-func changeEnemyState():
-	if isEnemyMad:
-		$LightPivot/NormalLight.color = Color("c90000")
-		$LightPivot/NormalLight.energy = 7
-	else:
+	#normal gameplay
+	if game_stats.enemyRageTimer >= game_stats.thirtySecondTimer && game_stats.enemyState == true:
+		game_stats.enemyState = false
 		$LightPivot/NormalLight.color = Color("ecf679")
 		$LightPivot/NormalLight.energy = 1
+	
+	# enemy rage
+	if game_stats.enemyRageTimer >= game_stats.oneMinuteTimer:
+		game_stats.enemyState = true
+		$LightPivot/NormalLight.color = Color("c90000")
+		$LightPivot/NormalLight.energy = 2
+		game_stats.enemyRageTimer = 0.0
+		raid_siren.play()

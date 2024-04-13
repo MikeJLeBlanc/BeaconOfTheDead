@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bywcblumvbovo"]
+
+[ext_resource type="AudioStream" uid="uid://bg7jconye61am" path="res://Audio/BGMusic/IntroAmbiance.mp3" id="1_3tkkw"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_3tkkw")
+autoplay = true
+bus = &"Sounds"
