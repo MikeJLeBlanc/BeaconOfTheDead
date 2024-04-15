@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://c8nt6bmuj11je"]
+[gd_scene load_steps=16 format=3 uid="uid://c8nt6bmuj11je"]
 
 [ext_resource type="Texture2D" uid="uid://cn4qc5hgljivu" path="res://Tilemaps/TilesDungeon.png" id="1_6cp6k"]
 [ext_resource type="Texture2D" uid="uid://bqryva1j45quc" path="res://Tilemaps/Water_FREE.png" id="2_juabw"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://bhwqj2016ykgi" path="res://Tilemaps/Trees.png" id="4_t3np6"]
 [ext_resource type="PackedScene" uid="uid://dk782gdv8jppr" path="res://Objects/Lighthouse.tscn" id="6_qqp7i"]
 [ext_resource type="PackedScene" uid="uid://bpaxhdsag0r5d" path="res://Scenes/EnemySpawner.tscn" id="7_bolig"]
+[ext_resource type="PackedScene" uid="uid://icvjx5ye6vlr" path="res://Objects/PlayerKnight.tscn" id="8_cvq78"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_grkpc"]
 texture = ExtResource("1_6cp6k")
@@ -569,3 +570,6 @@ color = Color(0.682353, 0.682353, 0.682353, 1)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(643, 363)
+
+[node name="PlayerSprite" parent="." instance=ExtResource("8_cvq78")]
+position = Vector2(625, 183)
