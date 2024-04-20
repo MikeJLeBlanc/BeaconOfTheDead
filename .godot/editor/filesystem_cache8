@@ -1,9 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1709518835
+::res://::1713628301
+Ambiance.tscn::PackedScene::4116493070600915432::1713023172::0::1::::<><>::uid://bg7jconye61am::::res://Audio/BGMusic/IntroAmbiance.mp3
+default_bus_layout.tres::AudioBusLayout::5587156626487510344::1713023172::0::1::::<><>::
+GameStats.gd::GDScript::-1::1713023172::0::1::::GameStats<>Resource<>::
+GameStats.tres::Resource::4986420060056531491::1713023172::0::1::::<><>::res://GameStats.gd
 README.md::TextFile::-1::1709389353::0::1::::<><>::
 ::res://Assets/::1709389585
 light.png::CompressedTexture2D::3502917548222708498::1709389353::1709389585::1::::<><>::
-::res://Audio/::1709398625
+::res://Audio/::1713023464
+AirRaidSiren.wav::AudioStreamWAV::7195669951370109707::1713023172::1713023464::1::::<><>::
 ::res://Audio/BGMusic/::1709513818
 IntroAmbiance.mp3::AudioStreamMP3::2874164614680319596::1709389353::1709513818::1::::<><>::
 IntroMusicAcapella.mp3::AudioStreamMP3::2247166197352735401::1709389353::1709512851::1::::<><>::
@@ -19,15 +24,45 @@ IntroMusicAcapella.mp3::AudioStreamMP3::2247166197352735401::1709389353::1709512
 08 Slow to fast heart SFX (60 bpm to 120bpm).wav::AudioStreamWAV::8790308551745185585::1709389353::1709512923::1::::<><>::
 09 Irregular, fast heartbeat.wav::AudioStreamWAV::8087846314771327358::1709389353::1709512923::1::::<><>::
 10 Fast heartbeat (120bpm).wav::AudioStreamWAV::7251866598658788036::1709389353::1709512923::1::::<><>::
-::res://Objects/::1709389353
-Lighthouse.tscn::PackedScene::7929262773559394051::1709389353::0::1::::<><>::uid://cn4qc5hgljivu::::res://Tilemaps/TilesDungeon.png<>res://Scripts/LighthouseScript.gd<>uid://bp53smrptt4m5::::res://Assets/light.png
-::res://Scenes/::1709519745
-GameOver.tscn::PackedScene::2889246014491385139::1709389353::0::1::::<><>::
-MainScene.tscn::PackedScene::7117119172700453374::1709518676::0::1::::<><>::uid://cn4qc5hgljivu::::res://Tilemaps/TilesDungeon.png<>uid://bqryva1j45quc::::res://Tilemaps/Water_FREE.png<>uid://dvkllcj256wnb::::res://Tilemaps/Tiles.png<>uid://kbey5hj4fjax::::res://Tilemaps/Props.png<>uid://bhwqj2016ykgi::::res://Tilemaps/Trees.png<>uid://dk782gdv8jppr::::res://Objects/Lighthouse.tscn<>uid://jrq40t37u3l8::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Death/Death-Sheet.png<>uid://ct4w5qd2g3odu::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/Idle-Sheet.png<>uid://b3krkxehth7bw::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Run/Run-Sheet.png
-TitleScreen.tscn::PackedScene::4417677750832605837::1709520153::0::1::::<><>::res://Scripts/GameManager.gd<>uid://bg7jconye61am::::res://Audio/BGMusic/IntroAmbiance.mp3<>uid://ckkm4hb66lej3::::res://Audio/SoundEffects/Heartbeat Sound Effects/06 Human heartbeat (60 bpm).wav<>uid://7asq7167befh::::res://Audio/BGMusic/IntroMusicAcapella.mp3
-::res://Scripts/::1709519739
-GameManager.gd::GDScript::-1::1709520153::0::1::::<>Node<>::
-Lighthouse.gd::GDScript::-1::1709520092::0::1::::<>Node2D<>::
+::res://components/::1713026972
+border_bounce_component.gd::GDScript::-1::1713023172::0::1::::BorderBounceComponent<>Node<>::
+destroyed_component.gd::GDScript::-1::1713023172::0::1::::DestroyedComponent<>Node<>::
+flash_component.gd::GDScript::-1::1713023172::0::1::::FlashComponent<>Node<>::
+hitbox_component.gd::GDScript::-1::1713023172::0::1::::HitboxComponent<>Area2D<>::
+hurtbox_component.gd::GDScript::-1::1713023172::0::1::::HurtboxComponent<>Area2D<>::
+hurt_component.gd::GDScript::-1::1713023172::0::1::::HurtComponent<>Node<>::
+move_component.gd::GDScript::-1::1713023172::0::1::::MoveComponent<>Node<>::
+move_input_comoponent.gd::GDScript::-1::1713026972::0::1::::MoveInputComponent<>Node<>::
+move_stats.gd::GDScript::-1::1713023172::0::1::::MoveStats<>Resource<>::
+onetime_animated_effect.gd::GDScript::-1::1713023172::0::1::::OnetimeAnimatedEffect<>AnimatedSprite2D<>::
+position_clamp_component.gd::GDScript::-1::1713023172::0::1::::PositionClampComponent<>Node2D<>::
+scale_component.gd::GDScript::-1::1713023172::0::1::::ScaleComponent<>Node<>::
+score_component.gd::GDScript::-1::1713023172::0::1::::ScoreComponent<>Node<>::
+shake_component.gd::GDScript::-1::1713023172::0::1::::ShakeComponent<>Node<>::
+spawner_component.gd::GDScript::-1::1713023172::0::1::::SpawnerComponent<>Node2D<>::
+state_component.gd::GDScript::-1::1713023172::0::1::::StateComponent<>Node<>::
+stats_component.gd::GDScript::-1::1713023172::0::1::::StatsComponent<>Node<>::
+timed_state_componoent.gd::GDScript::-1::1713023172::0::1::::TimedStateComponent<>StateComponent<>::
+variable_pitch_audio_stream_player.gd::GDScript::-1::1713023172::0::1::::VariablePitchAudioStreamPlayer<>AudioStreamPlayer<>::
+::res://effects/::1713023172
+white_flash_material.gdshader::Shader::-1::1713023172::0::1::::<><>::
+white_flash_material.tres::ShaderMaterial::210536038483746541::1713023172::0::1::::<><>::res://effects/white_flash_material.gdshader
+::res://Objects/::1713027499
+Lighthouse.tscn::PackedScene::7929262773559394051::1713023172::0::1::::<><>::uid://cn4qc5hgljivu::::res://Tilemaps/TilesDungeon.png<>res://Scripts/Lighthouse.gd<>uid://cdbpu0adjmqpv::::res://GameStats.tres<>uid://bp53smrptt4m5::::res://Assets/light.png<>res://components/stats_component.gd<>res://components/hurtbox_component.gd<>uid://darvvrrrppx0v::::res://Audio/AirRaidSiren.wav
+PlayerKnight.tscn::PackedScene::566931889083842835::1713024897::0::1::::<><>::uid://dj60w03c1mb48::::res://Objects/PlayerSprite.tscn<>uid://jrq40t37u3l8::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Death/Death-Sheet.png<>uid://ct4w5qd2g3odu::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Idle/Idle-Sheet.png<>uid://b3krkxehth7bw::::res://SupportingFiles/Pixel Crawler - FREE - 1.8/Pixel Crawler - FREE - 1.8/Heroes/Knight/Run/Run-Sheet.png
+PlayerSprite.tscn::PackedScene::7856515922946883647::1713027499::0::1::::<><>::res://components/move_component.gd<>res://components/stats_component.gd<>res://components/hurtbox_component.gd<>res://components/hitbox_component.gd<>res://components/move_input_comoponent.gd<>res://components/hurt_component.gd<>res://components/flash_component.gd
+::res://Scenes/::1713024897
+BaseEnemy.tscn::PackedScene::6985974880951650794::1713024897::0::1::::<><>::res://components/move_component.gd<>res://components/stats_component.gd<>res://components/flash_component.gd<>res://components/hurtbox_component.gd<>res://components/hitbox_component.gd<>res://components/hurt_component.gd
+EnemySpawner.gd::GDScript::-1::1713023172::0::1::::<>Node2D<>::
+EnemySpawner.tscn::PackedScene::3440662515040100971::1713023172::0::1::::<><>::res://Scenes/EnemySpawner.gd<>res://components/spawner_component.gd<>uid://cdbpu0adjmqpv::::res://GameStats.tres
+GameOver.gd::GDScript::-1::1713023172::0::1::::<>Node2D<>::
+GameOver.tscn::PackedScene::2889246014491385139::1713023172::0::1::::<><>::res://Scenes/GameOver.gd<>uid://cdbpu0adjmqpv::::res://GameStats.tres
+MainScene.tscn::PackedScene::7117119172700453374::1713024897::0::1::::<><>::uid://cn4qc5hgljivu::::res://Tilemaps/TilesDungeon.png<>uid://bqryva1j45quc::::res://Tilemaps/Water_FREE.png<>uid://dvkllcj256wnb::::res://Tilemaps/Tiles.png<>uid://kbey5hj4fjax::::res://Tilemaps/Props.png<>uid://bhwqj2016ykgi::::res://Tilemaps/Trees.png<>uid://dk782gdv8jppr::::res://Objects/Lighthouse.tscn<>uid://bpaxhdsag0r5d::::res://Scenes/EnemySpawner.tscn<>uid://icvjx5ye6vlr::::res://Objects/PlayerKnight.tscn
+MenuBackground.tscn::PackedScene::4772295518304753318::1713023172::0::1::::<><>::
+TitleScreen.gd::GDScript::-1::1713023172::0::1::::<>Node2D<>::
+TitleScreen.tscn::PackedScene::4417677750832605837::1713024897::0::1::::<><>::res://Scenes/TitleScreen.gd<>uid://cdbpu0adjmqpv::::res://GameStats.tres<>uid://ckkm4hb66lej3::::res://Audio/SoundEffects/Heartbeat Sound Effects/06 Human heartbeat (60 bpm).wav<>uid://7asq7167befh::::res://Audio/BGMusic/IntroMusicAcapella.mp3
+::res://Scripts/::1713023172
+Lighthouse.gd::GDScript::-1::1713023172::0::1::::<>Node2D<>::
 ::res://SupportingFiles/::1709512922
 Water_FREE.png::CompressedTexture2D::9064292057108514078::1709389353::1709389585::1::::<><>::
 ::res://SupportingFiles/Pixel Crawler - FREE - 1.8/::1709389353

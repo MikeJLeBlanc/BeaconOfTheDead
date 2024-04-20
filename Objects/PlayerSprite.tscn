@@ -12,13 +12,16 @@
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 
-[node name="MoveInputComponent" type="Node" parent="."]
+[node name="MoveInputComponent" type="Node" parent="." node_paths=PackedStringArray("move_component", "player_sprite")]
 script = ExtResource("4_c52im")
+move_component = NodePath("../MoveComponent")
+move_speed = 125
+player_sprite = NodePath("../AnimatedSprite2D")
 
 [node name="MoveComponent" type="Node" parent="." node_paths=PackedStringArray("actor")]
 script = ExtResource("1_vev3y")
 actor = NodePath("..")
-velocity = Vector2(50, 50)
+velocity = Vector2(100, 100)
 
 [node name="StatsComponent" type="Node" parent="."]
 script = ExtResource("2_nvenv")

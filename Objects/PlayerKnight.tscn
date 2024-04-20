@@ -145,8 +145,11 @@ size = Vector2(25, 29)
 
 [node name="AnimatedSprite2D" parent="." index="0"]
 sprite_frames = SubResource("SpriteFrames_wnk0c")
-animation = &"move"
+animation = &"idle"
 autoplay = "idle"
+
+[node name="MoveInputComponent" parent="." index="1"]
+move_speed = 100
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HurtboxComponent" index="0"]
 position = Vector2(0.5, 1.5)

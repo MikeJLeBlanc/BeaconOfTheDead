@@ -1,4 +1,13 @@
-AudioStreamPlayer2D
+CollisionShape2D
+HurtComponent
+HitboxComponent
+HurtboxComponent
+FlashComponent
+StatsComponent
+MoveComponent
 AnimatedSprite2D
+Sprite2D
+Node2D
+AudioStreamPlayer2D
 AudioStreamPlayer
 Node

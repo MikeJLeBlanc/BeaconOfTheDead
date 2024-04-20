@@ -1,4 +1,6 @@
+res://Objects/PlayerSprite.tscn
+res://components/move_input_comoponent.gd
 res://Scenes/TitleScreen.tscn
-res://Scripts/GameManager.gd
-res://Objects/Lighthouse.tscn
 res://Scenes/MainScene.tscn
+res://Scenes/BaseEnemy.tscn
+res://Objects/PlayerKnight.tscn
